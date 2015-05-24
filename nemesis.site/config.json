@@ -1,0 +1,12 @@
+{
+    "AppSettings": {
+        "SiteTitle": "Nemesis"
+    },
+    "Data": {
+        "DefaultConnection": {
+            //"ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-Nemesis.Site-61440479-6b29-4b85-9f19-947b444aa0b6;Trusted_Connection=True;MultipleActiveResultSets=true"
+            "ConnectionString": "Data Source=.\\SQLEXPRESS;Initial Catalog=Nemesis.Core.StoreModelContext;Integrated Security=True"
+            //"ConnectionString": "Data Source=DAN-PC4\\SQLEXPRESS;AttachDbFilename=|DataDirectory|\\aspnet-nemesis.site-20150413080412.mdf;Initial Catalog=aspnet-nemesis.site-20150413080412;Integrated Security=True"
+        }
+    }
+}
