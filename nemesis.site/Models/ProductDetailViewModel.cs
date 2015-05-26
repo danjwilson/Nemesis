@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Nemesis.Site.Models
 {
-    public class ProductDetailsViewModel
+    public class ProductDetailViewModel
     {
 
         public int Id { get; set; }
@@ -13,7 +13,7 @@ namespace Nemesis.Site.Models
         public string Description { get; set; }
         
         
-        public ProductDetailsViewModel(Product product)
+        public ProductDetailViewModel(Product product)
         {
             Id = product.Id;
             Name = product.Name;

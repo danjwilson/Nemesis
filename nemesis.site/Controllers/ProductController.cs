@@ -27,12 +27,12 @@ namespace Nemesis.Site.Controllers
         [HttpGet]
         public IActionResult Detail(int Id)
         {
-            //return View(new ProductDetailViewModel(repo.Products.First(p => p.Product.Id.Equals(Id))));
-            return View();
+            return View(new ProductDetailViewModel(repo.Products.First(p => p.Id.Equals(Id))));
         }
 
         [HttpPost]
         public IActionResult Detail(StoreDetailViewModel model)
+
         {
             return View();
         }
